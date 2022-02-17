@@ -1,0 +1,16 @@
+{
+  "name": "demo-test-e2e-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "cypress": "^8.6.0",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "open": "node_modules/.bin/cypress open --browser chrome",
+    "test": "node_modules/.bin/cypress run --headed --browser chrome",
+    "runtests": "npm run test -- "
+  }
+}
